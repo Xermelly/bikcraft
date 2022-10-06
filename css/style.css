@@ -1,11 +1,21 @@
-@import url(./global/header.css);
 @import url(./global/global.css);
 @import url(./util/typography.css);
-/* home */
-@import url(./home/intro.css);
+@import url(./util/color.css);
+
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
 /* Util */
 @import url(./util/components.css);
-@import url(./util/color.css);
+
+/* home */
+@import url(./home/intro.css);
+@import url(./home/tech.css);
+@import url(./home/partners.css);
+@import url(./home/depo.css);
 
 /* bikes */
 @import url(./bikes/bikes-list.css);
+
+/* safe */
+@import url(./safe/safe.css);
