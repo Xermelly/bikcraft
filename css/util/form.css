@@ -5,7 +5,7 @@
 }
 .form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 .form .col-2 {
@@ -13,6 +13,7 @@
 }
 .form input[type="text"],
 .form input[type="email"],
+.form select[name="estado"],
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c1);
@@ -24,6 +25,7 @@
 }
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
+.form select[name="estado"]:focus,
 .form textarea:focus {
   outline: none;
   border-color: var(--p1);

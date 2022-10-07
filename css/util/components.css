@@ -73,6 +73,9 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.tittle {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
 .tittle p {
   margin-bottom: 4px;
 }
