@@ -16,6 +16,10 @@
 
 /* bikes */
 @import url(./bikes/bikes-list.css);
+@import url(./bikes/bikes.css);
 
 /* safe */
 @import url(./safe/safe.css);
+
+/*terms*/
+@import url(./terms/terms.css);

@@ -49,3 +49,23 @@
 .link:hover {
   color: var(--c0);
 }
+/*inset tittle*/
+.tittle-bg {
+  background-color: var(--c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.tittle p {
+  margin-bottom: 4px;
+}
+@media (max-width: 800px) {
+  .tittle {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tittle p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
