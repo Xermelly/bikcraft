@@ -7,6 +7,7 @@
 
 /* Util */
 @import url(./util/components.css);
+@import url(./util/form.css);
 
 /* home */
 @import url(./home/intro.css);
@@ -29,3 +30,7 @@
 
 /*terms*/
 @import url(./terms/terms.css);
+
+/*contato*/
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
