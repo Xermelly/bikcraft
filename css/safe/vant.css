@@ -1,0 +1,31 @@
+.vant-bg {
+  background-color: var(--c12);
+}
+.vant {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.vant h2 {
+  margin-bottom: 60px;
+}
+.vant ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+.vant h3,
+.vant img {
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .vant {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .vant h2 {
+    margin-bottom: 40px;
+  }
+  .vant ul {
+    gap: 20px;
+  }
+}
