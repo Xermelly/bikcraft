@@ -18,6 +18,10 @@
 @import url(./bikes/bikes-list.css);
 @import url(./bikes/bikes.css);
 
+/* bike */
+@import url(./bike/bike.css);
+@import url(./bike/safe-bike.css);
+
 /* safe */
 @import url(./safe/safe.css);
 @import url(./safe/questions.css);
