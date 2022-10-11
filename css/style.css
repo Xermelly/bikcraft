@@ -37,3 +37,6 @@
 
 /* orçamento */
 @import url(./orcamento/orcamento.css);
+
+/*animation*/
+@import url(./util/animation.css);

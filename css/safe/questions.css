@@ -42,10 +42,10 @@
 .questions button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
-.questions dd {
+.js .questions dd {
   display: none;
 }
-.questions dd.active {
+.js .questions dd.active {
   display: block;
 }
 .questions dd {
